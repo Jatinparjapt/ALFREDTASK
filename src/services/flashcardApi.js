@@ -1,8 +1,8 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const API_URL_FLASHCARD = "http://localhost:5000/api/flashcards";
-const API_URL_USER = "http://localhost:5000/api/users";
+const API_URL_FLASHCARD = "https://flashcard-backend-sb3p.onrender.com/api/flashcards";
+const API_URL_USER = "https://flashcard-backend-sb3p.onrender.com/api/users";
 
 // ✅ Get token from cookies correctly
 const getHeaders = () => {
